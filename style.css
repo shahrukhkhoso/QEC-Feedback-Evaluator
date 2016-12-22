@@ -1,0 +1,123 @@
+.margin-top-20{
+	margin-top: 20px;
+}
+			
+body{
+	background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/08/30/12087/3574f899daef41d2f145eba13ff7840f.jpg');
+	background-size:100% 100%;
+	background-attachment: fixed; 
+	background-repeat:no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+}
+	
+.auth h1{
+	color:#fff!important;
+	font-weight:300px;
+	font-family: 'Open Sans', sans-serif;	
+}
+			
+.auth h1 span{
+	font-size:19px;
+	display:block;
+	padding-top: 20px;
+}
+		
+.auth .auth-box legend{
+	color:#fff;
+	border:none;
+	font-weight:300px;
+	font-size:24px;
+}
+			
+.auth .auth-box{
+	background-color:green;
+	max-width:560px;
+	margin:0 auto;
+	border:1px solid rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.2);
+	margin-top:40px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	-ms-transition: background 1s ease-in-out;
+	-o-transition: background 1s ease-in-out;
+	transition: background 1s ease-in-out;
+}
+
+.auth textarea{
+	background-color: rgba(255, 255, 255, 0)!important;
+	color:#fff!important;
+	width:100%;
+	height:70px;
+	resize: none;
+}
+		
+.auth .inputField{
+	background-color: rgba(255, 255, 255, 0)!important;
+	color:white!important;
+	width:100%;	
+	height:40px;
+	resize: none;
+}		
+
+.auth label{
+	font-size:13px;
+	color:white;
+}
+					
+a{
+	color:#fff;
+}
+			
+#alert{
+	background-color: rgba(255, 255, 255, 0)!important;
+	color:#fff!important;
+	border-bottom: dotted #fff;
+	border-left:dotted #fff;
+	border-right:dotted #fff;
+	border-top:dotted #fff;
+}
+			
+input::-webkit-input-placeholder {
+	color: #fff !important;
+}
+			 
+input:-moz-placeholder { /* Firefox 18- */
+	color: #fff !important;  
+}
+			 			
+input::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff !important;  
+}
+			 
+input:-ms-input-placeholder {  
+	color: #fff !important;  
+}
+			
+textarea::-webkit-input-placeholder {
+	color: #fff !important;
+}
+			 			
+textarea:-moz-placeholder { /* Firefox 18- */
+	color: #fff !important;  
+}
+			 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+	color: #fff !important;  
+}
+			 
+textarea:-ms-input-placeholder {  
+	color: #fff !important;  
+}
+			
+input[type="radio"]{
+	width: 14px;
+	height: 14px;
+}
